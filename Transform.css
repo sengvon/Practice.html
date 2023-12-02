@@ -1,0 +1,10 @@
+.box {
+  width: 200px;
+  height: 200px;
+  background-color: aquamarine;
+  transform: rotate(45deg);
+  /* transform: rotate(45deg); = សម្រាប់ផ្លាស់ប្ដូលទម្រង់ */
+  /* transform: scale(1.5); (1.5%) = ពង្រីកពង្រួម */
+  /* transform: skew(45deg); = ទ្រេត */
+  /* transform: translate(50px, 50px); = បំលាស់ទី */
+}

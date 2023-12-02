@@ -1,0 +1,167 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans&family=Open+Sans:wght@600;700&family=Poppins:wght@300;600&display=swap");
+html {
+  font-size: 62.5%;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+a {
+  color: inherit;
+  text-decoration: none;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200vh;
+  font-family: "Poppins", sans-serif, "Noto Serif Khmer", serif;
+  background-color: lightgray;
+}
+.navigation {
+  display: grid;
+  overflow: hidden;
+  /* grid-template-columns: 65% 35%; */
+  border-radius: 15px;
+  border: 1px solid lightgray;
+  width: 768px;
+  background-color: white;
+}
+
+@media screen and (min-width: 531px) {
+  .navigation {
+    background-color: white;
+    display: grid;
+    grid-template-columns: 65% 35%;
+    overflow: hidden;
+    border-radius: 15px;
+  }
+}
+.left-nav {
+  padding: 2rem;
+  width: 100%;
+  height: 100%;
+  /* background-color: aqua; */
+}
+.left-link {
+  border-radius: 15px;
+  padding: 1.5rem 2rem;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+/* Local:hover */
+.left-link-one:hover {
+  background-color: rgb(216, 250, 250);
+}
+.left-link-one:hover h3 {
+  color: rgb(108, 234, 146);
+}
+.left-link-two:hover {
+  background-color: rgb(216, 250, 250);
+}
+.left-link-two:hover h3 {
+  color: rgb(244, 67, 150);
+}
+
+.left-link-three:hover {
+  background-color: rgb(216, 250, 250);
+}
+.left-link-three:hover h3 {
+  color: rgb(44, 113, 225);
+}
+.left-link-four:hover {
+  background-color: rgb(216, 250, 250);
+}
+.left-link-four:hover h3 {
+  color: rgb(237, 217, 88);
+}
+.left-link-five:hover {
+  background-color: rgb(216, 250, 250);
+}
+.left-link-five:hover h3 {
+  color: rgb(187, 131, 243);
+}
+.left-link-five .left-link-tittle > h3::after {
+  content: "new";
+  text-transform: uppercase;
+  padding: 0.1rem 0.5rem;
+  background-color: rgb(232, 119, 255);
+  font-size: 0.8rem;
+  border-radius: 5px;
+}
+.lesft-link-tittle {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+/* Local:hover */
+
+.left-link-tittle > h3 {
+  color: rgb(40, 40, 52);
+  font-size: 2.2rem;
+}
+.left-link-tittle > p {
+  color: rgb(40, 40, 52);
+  font-size: 1.2rem;
+}
+.left-link-tittle {
+  padding-bottom: 0.6rem;
+}
+
+.right-nav {
+  width: 100%;
+  height: 100%;
+  background-color: rgb(243, 242, 242);
+}
+.img {
+  width: 60px;
+}
+
+.right-nav {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 2rem;
+}
+.nav-top,
+.nav-buttom {
+  display: flex;
+  flex-direction: column;
+}
+.nav-top p,
+.nav-top a,
+.nav-buttom p,
+.nav-buttom a {
+  font-size: 1.5rem;
+  margin: 0.8rem;
+  font-family: "Roboto", sans-serif;
+}
+.nav-top p,
+.nav-buttom p {
+  font-weight: bold;
+}
+.nav-top a:hover,
+.nav-buttom a:hover {
+  color: rgb(113, 113, 240);
+}
+
+.nav-top {
+  margin-bottom: 2rem;
+}
+.nav-buttom .a::after {
+  content: "new";
+  text-transform: uppercase;
+  padding: 0.2rem 0.5rem;
+  background-color: rgb(253, 128, 245);
+  border-radius: 5px;
+  font-size: 0.7rem;
+}
+.a {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}

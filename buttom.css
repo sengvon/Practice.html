@@ -1,0 +1,40 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif+Khmer:wght@300;400;500;600;700;800&family=Poppins:ital,wght@0,300;0,400;0,500;1,300;1,400&display=swap");
+html {
+  font-size: 62.5%;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: beige;
+
+  font-family: "Poppins", sans-serif, "Noto Serif Khmer", serif;
+}
+/*| it is *  = universall selector  */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.btn {
+  text-decoration: none;
+  color: inherit;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  font-size: 2rem;
+  font-weight: bold;
+  padding: 1rem 2rem;
+  border-radius: 10px;
+  border: 3px solid darkblue;
+  box-shadow: 0 2.5px 0 darkblue;
+}
+.btn-primary {
+  background-color: gold;
+}
+.btn-primary:hover {
+  background-color: rgb(129, 87, 4);
+}

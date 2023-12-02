@@ -1,0 +1,16 @@
+.box {
+  width: 200px;
+  height: 200px;
+  background-color: aquamarine;
+  /* transition: transform 0.2s linear; */
+  /* transition: transform 0.2s ease-in; */
+  /* transition: transform 2s ease-out; */
+  /* transition: transform 3s ease-in-out; */
+  /* transition: transform 3s ease-in-out, background-color 3s ease-in-out 1s; */
+  transition: all 2s ease;
+  /* បូកបញ្ជូលទាំងអស់ */
+}
+.box:hover {
+  background-color: rgb(136, 19, 146);
+  transform: translate(50%, 70%);
+}
